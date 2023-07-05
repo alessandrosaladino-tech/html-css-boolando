@@ -87,3 +87,42 @@ a {
 h6{
     font-size: 20px;
 }
+
+footer {
+    background-color: var(--bo-footer);
+    height: 100px;
+    width: 100%;
+}
+
+.info{
+    flex-direction: column;
+    width: 50%;
+}
+
+.info, .follow{
+    line-height: 1.5rem;
+}
+
+ .general{
+    justify-content: space-between;
+    padding-left: 30rem;
+    padding-right: 24rem;
+    padding-top: 1rem;
+ }
+
+ .general h4, p{
+    color: white;
+    font-size: 15px;
+ }
+
+ .info p{
+    display: inline;
+ }
+
+ .heart {
+    width: 30px;
+    height: 30px;
+    background-color: var(--bo-text);
+    position: absolute;
+    
+ }
