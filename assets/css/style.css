@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
+header {
     background-color: var(--bo-head);
     height: 10%;
     width: 100%
@@ -19,28 +19,28 @@ header{
     --bo-text: white;
 }
 
-.d-flex{
+.d-flex {
     display: flex;
 }
 
-.sesso a{
+.sesso a {
     text-decoration: none;
     color: var(--bo-card);
 }
 
-.logo img{
+.logo img {
     width: 20%;
 }
 
 .menu {
     justify-content: space-between;
     align-items: center;
-    padding: 1rem ;
+    padding: 1rem;
     padding-left: 10rem;
     padding-right: 10rem;
 }
 
-.logo{
+.logo {
     justify-content: center;
     align-items: center;
 }
@@ -49,7 +49,7 @@ a {
     margin: 0.2rem;
 }
 
-.row{
+.row {
     height: 800px;
     width: 100%;
     justify-content: center;
@@ -64,7 +64,7 @@ a {
     width: calc(60%/3);
 }
 
-.col img{
+.col img {
     width: 100%;
     height: 100%;
 }
@@ -73,18 +73,18 @@ a {
     color: #e9e9e9;
 }
 
-.price{
-    color: red ;
+.price {
+    color: var(--bo-red-button);
     display: inline;
 }
 
-.discount{
+.discount {
     color: var(--bo-card);
     display: inline;
     text-decoration: line-through;
 }
 
-h6{
+h6 {
     font-size: 20px;
 }
 
@@ -95,32 +95,34 @@ footer {
     margin-top: 9rem;
 }
 
-.info{
+.info {
     flex-direction: column;
     width: 50%;
 }
 
-.info, .follow{
+.info,
+.follow {
     line-height: 1.5rem;
 }
 
- .general{
+.general {
     justify-content: space-between;
     padding-left: 30rem;
     padding-right: 24rem;
     padding-top: 1rem;
- }
+}
 
- .general h4, p{
+.general h4,
+p {
     color: white;
     font-size: 15px;
- }
+}
 
- .info p{
+.info p {
     display: inline;
- }
+}
 
- .heart {
+.heart {
     width: 40px;
     height: 40px;
     background-color: var(--bo-text);
@@ -129,10 +131,9 @@ footer {
     top: 7%;
     text-align: center;
     padding: 0.7rem;
- }
+}
 
- .sostenibilità{
-    width: ;
+.sostenibilità {
     height: 10px;
     background-color: var(--bo-green-button);
     color: var(--bo-text);
@@ -142,10 +143,10 @@ footer {
     padding: 0.4rem;
     display: inline;
     position: relative;
- }
+}
 
- .sconto{
-    height: 30px; 
+.sconto {
+    height: 30px;
     background-color: var(--bo-red-button);
     color: var(--bo-text);
     position: relative;
@@ -154,14 +155,22 @@ footer {
     text-align: center;
     padding: 0.4rem;
     display: inline;
- }
+}
 
- .info_wear {
+.info_wear {
     margin-top: -20px;
- }
+}
 
- /* hoover*/
- .levis_1:hover{
-    background-image: url(../img/1b.webp);
-    position: relative;
- } 
+/* hoover*/
+
+.col:hover .img1 {
+    display: none;
+}
+
+.img2 {
+    display: none;
+
+}
+.col:hover .img2 {
+    display: inline;
+}
