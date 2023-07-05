@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: var(--bo-head);
+    height: 10%;
+    width: 100%
+}
+
+:root {
+    --bo-head: #ff6900;
+    --bo-card: #e9e9e9;
+    --bo-red-button: #ff0000;
+    --bo-green-button: #008000;
+    --bo-footer: #1a1a1a;
+    --bo-text: white;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.sesso a{
+    text-decoration: none;
+    color: var(--bo-card);
+}
+
+.logo img{
+    width: 20%;
+}
+
+.menu {
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem ;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.logo{
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    margin: 0.2rem;
+}
+
+.row{
+    height: 800px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem
+}
+
+.col {
+    background-color: var(--bo-card);
+    height: 90%;
+    margin-left: 1rem;
+    width: calc(60%/3);
+}
+
+.col img{
+    width: 100%;
+    height: 100%;
+}
+
+.marca {
+    color: #e9e9e9;
+}
+
+.price{
+    color: red ;
+    display: inline;
+}
+
+.discount{
+    color: var(--bo-card);
+    display: inline;
+    text-decoration: line-through;
+}
+
+h6{
+    font-size: 20px;
+}
