@@ -12,7 +12,7 @@ header {
     width: 100%;
     position: fixed;
     z-index: 1000;
-    margin-top: -2.4%;
+    margin-top: -2%;
 }
 
 
@@ -136,38 +136,51 @@ p {
     background-color: var(--bo-text);
     position: absolute;
     left: 91%;
-    top: 7%;
+    top: 2%;
     text-align: center;
     padding: 0.7rem;
 }
 
 .sostenibilità {
-    height: 10px;
     background-color: var(--bo-green-button);
     color: var(--bo-text);
     bottom: 10%;
-    width: 20%;
     text-align: center;
     padding: 0.4rem;
     display: inline;
     position: relative;
+    left: 0.7%;
 }
 
 .sconto {
-    height: 30px;
     background-color: var(--bo-red-button);
     color: var(--bo-text);
     position: relative;
     bottom: 10%;
-    width: 20%;
     text-align: center;
     padding: 0.4rem;
     display: inline;
+    left: 0.7%;
 }
 
 .info_wear {
-    margin-top: -20px;
+    margin-top: -8%;
+    margin-left: 3px;
 }
+
+.zinfo_wear {
+    margin-top: -4.5%;
+    margin-left: 3px;
+}
+
+.info_wear h6 {
+    color: var(--bo-footer);
+}
+
+.zinfo_wear h6 {
+    color: var(--bo-footer);
+}
+
 
 /* hoover*/
 
@@ -181,4 +194,13 @@ p {
 }
 .col:hover .img2 {
     display: inline;
+}
+
+.heart:hover {
+    background-color: var(--bo-red-button);
+    color: white;
+}
+
+.col a {
+    text-decoration: none;
 }
