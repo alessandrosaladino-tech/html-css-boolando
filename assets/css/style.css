@@ -9,9 +9,13 @@ body{
 }
 header {
     background-color: var(--bo-head);
-    height: 10%;
-    width: 100%
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    margin-top: -2.4%;
 }
+
+
 
 :root {
     --bo-head: #ff6900;
